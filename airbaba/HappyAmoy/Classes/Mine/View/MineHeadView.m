@@ -14,6 +14,7 @@
     ViewRadius(self.memberBtn, 12.f);
 }
 - (IBAction)qCodeBtnClicked:(id)sender {
+    NSLog(@"二维码");
 }
 - (IBAction)walletBtnClicked:(id)sender {
 }
