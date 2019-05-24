@@ -11,7 +11,7 @@
 @implementation MineHeadView
 -(void)awakeFromNib{
     [super awakeFromNib];
-    ViewRadius(self.memberBtn, 12.f);
+    ViewRadius(self.memberBtn, 10.f);
 }
 - (IBAction)qCodeBtnClicked:(id)sender {
 }
