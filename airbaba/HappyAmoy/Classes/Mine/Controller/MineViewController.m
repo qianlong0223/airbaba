@@ -8,6 +8,14 @@
 
 #import "MineViewController.h"
 #import "MineHeadView.h"
+#import "CodeView.h"
+#import "MoneyViewController.h"
+#import "DWQOrderListViewController.h"
+#import "allOrderViewController.h"
+#import "waitingEvaluateController.h"
+#import "waitingDeliveryController.h"
+#import "waitingReceiveController.h"
+#import "waitingPayController.h"
 @interface MineViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView * mineTable;
 @property (nonatomic,strong)NSMutableArray * dataSource;
@@ -63,7 +71,40 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     
     MineHeadView *headerView = [[[NSBundle mainBundle]loadNibNamed:@"MineHeadView" owner:self options:nil]lastObject];
-    
+    [headerView setQcodeBtnBlock:^{
+        CodeView * popview = [[CodeView alloc]initWithDict:@{@"image":@"img_qrcode_nor",@"code":@"20190526"}];
+        [popview showView];
+    }];
+    [headerView setScanOrderBtnBlock:^{
+        DWQOrderListViewController *dwqlistOrder=[[DWQOrderListViewController alloc]init];
+        dwqlistOrder.index=0;
+        [self.navigationController pushViewController:dwqlistOrder animated:YES];
+    }];
+    [headerView setDfkBtnBlock:^{
+        DWQOrderListViewController *dwqlistOrder=[[DWQOrderListViewController alloc]init];
+        dwqlistOrder.index=1;
+        [self.navigationController pushViewController:dwqlistOrder animated:YES];
+    }];
+    [headerView setDfhBtnBlock:^{
+        DWQOrderListViewController *dwqlistOrder=[[DWQOrderListViewController alloc]init];
+        dwqlistOrder.index=1;
+        [self.navigationController pushViewController:dwqlistOrder animated:YES];
+    }];
+    [headerView setDshBtnBlock:^{
+        DWQOrderListViewController *dwqlistOrder=[[DWQOrderListViewController alloc]init];
+        dwqlistOrder.index=2;
+        [self.navigationController pushViewController:dwqlistOrder animated:YES];
+    }];
+
+    [headerView setDpjBtnBlock:^{
+        DWQOrderListViewController *dwqlistOrder=[[DWQOrderListViewController alloc]init];
+        dwqlistOrder.index=4;
+        [self.navigationController pushViewController:dwqlistOrder animated:YES];
+    }];
+    [headerView setMoneyBtnBlock:^{
+        MoneyViewController * vc = [[MoneyViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
     return headerView;
     
 }

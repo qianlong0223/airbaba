@@ -138,6 +138,25 @@
 		18EAEB81208255AA00A71674 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAEB80208255AA00A71674 /* libz.tbd */; };
 		18EAEB842082593000A71674 /* WYUMShareMnager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEB832082593000A71674 /* WYUMShareMnager.m */; };
 		28B3C62DD2CDF6540524AFBF /* Pods_HappyAmoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36047477D182687A4EA386A /* Pods_HappyAmoy.framework */; };
+		480315CC229AC84C0091A651 /* QGCodePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315CB229AC84C0091A651 /* QGCodePopView.m */; };
+		480315CE229AC85A0091A651 /* QGCodePopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480315CD229AC85A0091A651 /* QGCodePopView.xib */; };
+		480315D1229ACFBF0091A651 /* CodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315D0229ACFBF0091A651 /* CodeView.m */; };
+		480315D6229AD6780091A651 /* MoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315D4229AD6780091A651 /* MoneyViewController.m */; };
+		480315D7229AD6780091A651 /* MoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480315D5229AD6780091A651 /* MoneyViewController.xib */; };
+		480315F6229ADEA50091A651 /* allOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315DB229ADEA50091A651 /* allOrderViewController.m */; };
+		480315F7229ADEA50091A651 /* allOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480315DC229ADEA50091A651 /* allOrderViewController.xib */; };
+		480315FA229ADEA50091A651 /* waitingDeliveryController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480315E3229ADEA50091A651 /* waitingDeliveryController.xib */; };
+		480315FB229ADEA50091A651 /* waitingDeliveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315E4229ADEA50091A651 /* waitingDeliveryController.m */; };
+		480315FC229ADEA50091A651 /* waitingEvaluateController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480315E6229ADEA50091A651 /* waitingEvaluateController.xib */; };
+		480315FD229ADEA50091A651 /* waitingEvaluateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315E8229ADEA50091A651 /* waitingEvaluateController.m */; };
+		480315FE229ADEA50091A651 /* waitingPayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315EA229ADEA50091A651 /* waitingPayController.m */; };
+		480315FF229ADEA50091A651 /* waitingPayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480315EB229ADEA50091A651 /* waitingPayController.xib */; };
+		48031600229ADEA50091A651 /* DWQOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315ED229ADEA50091A651 /* DWQOrderListViewController.m */; };
+		48031601229ADEA50091A651 /* waitingReceiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315EF229ADEA50091A651 /* waitingReceiveController.m */; };
+		48031602229ADEA50091A651 /* waitingReceiveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480315F1229ADEA50091A651 /* waitingReceiveController.xib */; };
+		48031603229ADEA50091A651 /* orderHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315F4229ADEA50091A651 /* orderHeader.m */; };
+		48031608229AE3930091A651 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48031606229AE3930091A651 /* OrderTableViewCell.m */; };
+		48031609229AE3930091A651 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48031607229AE3930091A651 /* OrderTableViewCell.xib */; };
 		481B7DD2225D915E009E8ED7 /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 481B7DD0225D915D009E8ED7 /* UITextView+Extension.m */; };
 		481B7DD5225D9304009E8ED7 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 481B7DD4225D9303009E8ED7 /* NSString+Extension.m */; };
 		481B7DD9225D9446009E8ED7 /* BoolJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 481B7DD7225D9446009E8ED7 /* BoolJudge.m */; };
@@ -557,6 +576,36 @@
 		18EAEB832082593000A71674 /* WYUMShareMnager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYUMShareMnager.m; sourceTree = "<group>"; };
 		25AE76A843158CAA07FBB299 /* Pods-HappyAmoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyAmoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HappyAmoy/Pods-HappyAmoy.debug.xcconfig"; sourceTree = "<group>"; };
 		2C27EE2D5D364E38D26B9D2A /* Pods-HappyAmoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyAmoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyAmoy/Pods-HappyAmoy.release.xcconfig"; sourceTree = "<group>"; };
+		480315CA229AC84C0091A651 /* QGCodePopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QGCodePopView.h; sourceTree = "<group>"; };
+		480315CB229AC84C0091A651 /* QGCodePopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QGCodePopView.m; sourceTree = "<group>"; };
+		480315CD229AC85A0091A651 /* QGCodePopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QGCodePopView.xib; sourceTree = "<group>"; };
+		480315CF229ACFBF0091A651 /* CodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodeView.h; sourceTree = "<group>"; };
+		480315D0229ACFBF0091A651 /* CodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeView.m; sourceTree = "<group>"; };
+		480315D3229AD6780091A651 /* MoneyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneyViewController.h; sourceTree = "<group>"; };
+		480315D4229AD6780091A651 /* MoneyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoneyViewController.m; sourceTree = "<group>"; };
+		480315D5229AD6780091A651 /* MoneyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoneyViewController.xib; sourceTree = "<group>"; };
+		480315DB229ADEA50091A651 /* allOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allOrderViewController.m; sourceTree = "<group>"; };
+		480315DC229ADEA50091A651 /* allOrderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = allOrderViewController.xib; sourceTree = "<group>"; };
+		480315DD229ADEA50091A651 /* allOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allOrderViewController.h; sourceTree = "<group>"; };
+		480315DF229ADEA50091A651 /* DWQOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQOrderListViewController.h; sourceTree = "<group>"; };
+		480315E2229ADEA50091A651 /* waitingDeliveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitingDeliveryController.h; sourceTree = "<group>"; };
+		480315E3229ADEA50091A651 /* waitingDeliveryController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = waitingDeliveryController.xib; sourceTree = "<group>"; };
+		480315E4229ADEA50091A651 /* waitingDeliveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waitingDeliveryController.m; sourceTree = "<group>"; };
+		480315E6229ADEA50091A651 /* waitingEvaluateController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = waitingEvaluateController.xib; sourceTree = "<group>"; };
+		480315E7229ADEA50091A651 /* waitingEvaluateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitingEvaluateController.h; sourceTree = "<group>"; };
+		480315E8229ADEA50091A651 /* waitingEvaluateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waitingEvaluateController.m; sourceTree = "<group>"; };
+		480315EA229ADEA50091A651 /* waitingPayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waitingPayController.m; sourceTree = "<group>"; };
+		480315EB229ADEA50091A651 /* waitingPayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = waitingPayController.xib; sourceTree = "<group>"; };
+		480315EC229ADEA50091A651 /* waitingPayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitingPayController.h; sourceTree = "<group>"; };
+		480315ED229ADEA50091A651 /* DWQOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQOrderListViewController.m; sourceTree = "<group>"; };
+		480315EF229ADEA50091A651 /* waitingReceiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waitingReceiveController.m; sourceTree = "<group>"; };
+		480315F0229ADEA50091A651 /* waitingReceiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waitingReceiveController.h; sourceTree = "<group>"; };
+		480315F1229ADEA50091A651 /* waitingReceiveController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = waitingReceiveController.xib; sourceTree = "<group>"; };
+		480315F4229ADEA50091A651 /* orderHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderHeader.m; sourceTree = "<group>"; };
+		480315F5229ADEA50091A651 /* orderHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderHeader.h; sourceTree = "<group>"; };
+		48031605229AE3930091A651 /* OrderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		48031606229AE3930091A651 /* OrderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		48031607229AE3930091A651 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
 		481B7DD0225D915D009E8ED7 /* UITextView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
 		481B7DD1225D915E009E8ED7 /* UITextView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
 		481B7DD3225D9303009E8ED7 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
@@ -1063,13 +1112,13 @@
 		18EAEA4A2080D5A700A71674 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				48C82DC822942F3700D2040A /* Mine */,
 				182AAB5E20FF880A006EAC7E /* Resources */,
 				18EAEAED2080D5A800A71674 /* Application */,
 				18EAEAE82080D5A800A71674 /* Common */,
 				18EAEAF22080D5A800A71674 /* Main */,
 				48C82DD422942F3800D2040A /* FreeDesign */,
 				48C82DCC22942F3700D2040A /* Home */,
-				48C82DC822942F3700D2040A /* Mine */,
 				48C82DC422942F3700D2040A /* ServiceManagement */,
 				48C82DD022942F3700D2040A /* ShoppingCart */,
 				18EAEA532080D5A700A71674 /* Other */,
@@ -1422,6 +1471,129 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		480315C8229AC8360091A651 /* 我的邀请码 */ = {
+			isa = PBXGroup;
+			children = (
+				480315C9229AC8360091A651 /* CodePopView */,
+			);
+			path = "我的邀请码";
+			sourceTree = "<group>";
+		};
+		480315C9229AC8360091A651 /* CodePopView */ = {
+			isa = PBXGroup;
+			children = (
+				480315CA229AC84C0091A651 /* QGCodePopView.h */,
+				480315CB229AC84C0091A651 /* QGCodePopView.m */,
+				480315CD229AC85A0091A651 /* QGCodePopView.xib */,
+				480315CF229ACFBF0091A651 /* CodeView.h */,
+				480315D0229ACFBF0091A651 /* CodeView.m */,
+			);
+			path = CodePopView;
+			sourceTree = "<group>";
+		};
+		480315D2229AD63C0091A651 /* 钱包 */ = {
+			isa = PBXGroup;
+			children = (
+				480315D3229AD6780091A651 /* MoneyViewController.h */,
+				480315D4229AD6780091A651 /* MoneyViewController.m */,
+				480315D5229AD6780091A651 /* MoneyViewController.xib */,
+			);
+			path = "钱包";
+			sourceTree = "<group>";
+		};
+		480315D8229ADEA50091A651 /* 我的订单 */ = {
+			isa = PBXGroup;
+			children = (
+				48031604229AE37B0091A651 /* Cell */,
+				480315D9229ADEA50091A651 /* DWQController */,
+				480315F3229ADEA50091A651 /* DWQView */,
+			);
+			path = "我的订单";
+			sourceTree = "<group>";
+		};
+		480315D9229ADEA50091A651 /* DWQController */ = {
+			isa = PBXGroup;
+			children = (
+				480315DA229ADEA50091A651 /* allOrder */,
+				480315E1229ADEA50091A651 /* waitingDelivery */,
+				480315E5229ADEA50091A651 /* waitingEvaluate */,
+				480315E9229ADEA50091A651 /* waitingPay */,
+				480315EE229ADEA50091A651 /* waitingReceive */,
+				480315DF229ADEA50091A651 /* DWQOrderListViewController.h */,
+				480315ED229ADEA50091A651 /* DWQOrderListViewController.m */,
+			);
+			path = DWQController;
+			sourceTree = "<group>";
+		};
+		480315DA229ADEA50091A651 /* allOrder */ = {
+			isa = PBXGroup;
+			children = (
+				480315DD229ADEA50091A651 /* allOrderViewController.h */,
+				480315DB229ADEA50091A651 /* allOrderViewController.m */,
+				480315DC229ADEA50091A651 /* allOrderViewController.xib */,
+			);
+			path = allOrder;
+			sourceTree = "<group>";
+		};
+		480315E1229ADEA50091A651 /* waitingDelivery */ = {
+			isa = PBXGroup;
+			children = (
+				480315E2229ADEA50091A651 /* waitingDeliveryController.h */,
+				480315E4229ADEA50091A651 /* waitingDeliveryController.m */,
+				480315E3229ADEA50091A651 /* waitingDeliveryController.xib */,
+			);
+			path = waitingDelivery;
+			sourceTree = "<group>";
+		};
+		480315E5229ADEA50091A651 /* waitingEvaluate */ = {
+			isa = PBXGroup;
+			children = (
+				480315E7229ADEA50091A651 /* waitingEvaluateController.h */,
+				480315E8229ADEA50091A651 /* waitingEvaluateController.m */,
+				480315E6229ADEA50091A651 /* waitingEvaluateController.xib */,
+			);
+			path = waitingEvaluate;
+			sourceTree = "<group>";
+		};
+		480315E9229ADEA50091A651 /* waitingPay */ = {
+			isa = PBXGroup;
+			children = (
+				480315EC229ADEA50091A651 /* waitingPayController.h */,
+				480315EA229ADEA50091A651 /* waitingPayController.m */,
+				480315EB229ADEA50091A651 /* waitingPayController.xib */,
+			);
+			path = waitingPay;
+			sourceTree = "<group>";
+		};
+		480315EE229ADEA50091A651 /* waitingReceive */ = {
+			isa = PBXGroup;
+			children = (
+				480315F0229ADEA50091A651 /* waitingReceiveController.h */,
+				480315EF229ADEA50091A651 /* waitingReceiveController.m */,
+				480315F1229ADEA50091A651 /* waitingReceiveController.xib */,
+			);
+			path = waitingReceive;
+			sourceTree = "<group>";
+		};
+		480315F3229ADEA50091A651 /* DWQView */ = {
+			isa = PBXGroup;
+			children = (
+				480315F5229ADEA50091A651 /* orderHeader.h */,
+				480315F4229ADEA50091A651 /* orderHeader.m */,
+			);
+			path = DWQView;
+			sourceTree = "<group>";
+		};
+		48031604229AE37B0091A651 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				48031605229AE3930091A651 /* OrderTableViewCell.h */,
+				48031606229AE3930091A651 /* OrderTableViewCell.m */,
+				48031607229AE3930091A651 /* OrderTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		481B7DD6225D9446009E8ED7 /* BoolJudge */ = {
 			isa = PBXGroup;
 			children = (
@@ -1593,6 +1765,9 @@
 		48C82DC822942F3700D2040A /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				480315D8229ADEA50091A651 /* 我的订单 */,
+				480315D2229AD63C0091A651 /* 钱包 */,
+				480315C8229AC8360091A651 /* 我的邀请码 */,
 				48C82DC922942F3700D2040A /* Controller */,
 				48C82DCA22942F3700D2040A /* Model */,
 				48C82DCB22942F3700D2040A /* View */,
@@ -2055,7 +2230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48AA795A229587E30085A3D5 /* 女装.jpg in Resources */,
+				480315FF229ADEA50091A651 /* waitingPayController.xib in Resources */,
+				480315CE229AC85A0091A651 /* QGCodePopView.xib in Resources */,
 				182DF1F720F58FF8002CFE36 /* JWAddress.plist in Resources */,
+				480315F7229ADEA50091A651 /* allOrderViewController.xib in Resources */,
 				48AA79382295871A0085A3D5 /* cart_addBtn_nomal@2x.png in Resources */,
 				18EAEA252080D42E00A71674 /* LaunchScreen.storyboard in Resources */,
 				18EAEAFE2080D5A800A71674 /* TZImagePickerController.bundle in Resources */,
@@ -2070,6 +2248,8 @@
 				48AA795E229587E30085A3D5 /* iOS10编程指南.jpg in Resources */,
 				183407BA20B6872D0053045E /* yw_1222.jpg in Resources */,
 				48AA7956229587E30085A3D5 /* 放弃.jpeg in Resources */,
+				48031602229ADEA50091A651 /* waitingReceiveController.xib in Resources */,
+				480315FC229ADEA50091A651 /* waitingEvaluateController.xib in Resources */,
 				18EAEA222080D42E00A71674 /* Assets.xcassets in Resources */,
 				48AA793C2295871A0085A3D5 /* cart_selected_btn@2x.png in Resources */,
 				48AA7954229587E30085A3D5 /* 橘子.jpg in Resources */,
@@ -2086,6 +2266,9 @@
 				18EAEB082080D5A800A71674 /* WYTagCell.xib in Resources */,
 				182AAB6020FF8818006EAC7E /* areas.csv in Resources */,
 				48AA7953229587E30085A3D5 /* 香蕉.jpg in Resources */,
+				480315FA229ADEA50091A651 /* waitingDeliveryController.xib in Resources */,
+				48031609229AE3930091A651 /* OrderTableViewCell.xib in Resources */,
+				480315D7229AD6780091A651 /* MoneyViewController.xib in Resources */,
 				48AA795B229587E30085A3D5 /* 猪头肉.jpg in Resources */,
 				48AA7957229587E30085A3D5 /* ShopCarSources.plist in Resources */,
 				1890A90420A98A6500095705 /* 省惠优选用户协议.docx in Resources */,
@@ -2233,6 +2416,7 @@
 				18EAEB2F2080D5A800A71674 /* UIView+QuickView.m in Sources */,
 				48C82DDD2294302200D2040A /* FreeDesignViewController.m in Sources */,
 				18E83D5420846D6B00C20014 /* UINavigationBar+Awesome.m in Sources */,
+				48031601229ADEA50091A651 /* waitingReceiveController.m in Sources */,
 				18EAEB202080D5A800A71674 /* WYUserDefaultManager.m in Sources */,
 				18EAEB0A2080D5A800A71674 /* WYTagView.m in Sources */,
 				18EAEAF42080D5A800A71674 /* WYUploaderItem.m in Sources */,
@@ -2251,6 +2435,7 @@
 				483AB0A5224F63DC009D965C /* SDPhotoBrowser.m in Sources */,
 				1840623820A194F600894F87 /* QHCrashManager.m in Sources */,
 				483AB1282250B1B4009D965C /* SDRefreshView.m in Sources */,
+				480315FB229ADEA50091A651 /* waitingDeliveryController.m in Sources */,
 				18EAEB212080D5A800A71674 /* WYUtils.m in Sources */,
 				18EAEB242080D5A800A71674 /* UIImageView+WYWebImage.m in Sources */,
 				1826BE6020AE9ECA00902FC4 /* APOrderInfo.m in Sources */,
@@ -2262,6 +2447,7 @@
 				FE8AB16821776D1F0011A3D0 /* UIViewController+PhotoAlbum.m in Sources */,
 				FE8AB16921776D1F0011A3D0 /* UIView+CGContextRef.m in Sources */,
 				18EAEB342080D5A800A71674 /* WYCarouselView.m in Sources */,
+				480315F6229ADEA50091A651 /* allOrderViewController.m in Sources */,
 				186E0F1821787EC200144959 /* ZWSHomeListViewController.m in Sources */,
 				FE8AB16A21776D1F0011A3D0 /* NSDateFormatter+Category.m in Sources */,
 				FE8AB15F21776D1F0011A3D0 /* SelectDateView.m in Sources */,
@@ -2279,6 +2465,8 @@
 				18EAEB372080D5A800A71674 /* UIScrollView+GKGestureHandle.m in Sources */,
 				1840623C20A1953200894F87 /* CatchCrash.m in Sources */,
 				18EAEAF72080D5A800A71674 /* TZImageCropManager.m in Sources */,
+				480315D1229ACFBF0091A651 /* CodeView.m in Sources */,
+				48031600229ADEA50091A651 /* DWQOrderListViewController.m in Sources */,
 				18EAEB302080D5A800A71674 /* QHConst.m in Sources */,
 				1826BE4E20AE95DC00902FC4 /* MXWechatPayHandler.m in Sources */,
 				18EAEB362080D5A800A71674 /* GKLoadingView.m in Sources */,
@@ -2297,17 +2485,21 @@
 				18EAEB052080D5A800A71674 /* TZGifPhotoPreviewController.m in Sources */,
 				18EAEAF82080D5A800A71674 /* TZAssetCell.m in Sources */,
 				FE8AB16721776D1F0011A3D0 /* UIColor+Lanmei.m in Sources */,
+				480315D6229AD6780091A651 /* MoneyViewController.m in Sources */,
 				1826BE4F20AE95DC00902FC4 /* MXWechatSignAdaptor.m in Sources */,
 				18EAEB232080D5A800A71674 /* NSString+MD5Addition.m in Sources */,
 				FE8AB16F21776D1F0011A3D0 /* AlertViewViewController.m in Sources */,
 				48C82DF62294431F00D2040A /* TwoViewController.m in Sources */,
 				18EAEB332080D5A800A71674 /* NetworkSingleton.m in Sources */,
+				480315CC229AC84C0091A651 /* QGCodePopView.m in Sources */,
 				18EAEB842082593000A71674 /* WYUMShareMnager.m in Sources */,
 				18EAEB2B2080D5A800A71674 /* UIBarButtonItem+Item.m in Sources */,
 				18EAEB2D2080D5A800A71674 /* UILabel+WYDefine.m in Sources */,
 				18EAEB1E2080D5A800A71674 /* YBPopupMenuPath.m in Sources */,
+				48031608229AE3930091A651 /* OrderTableViewCell.m in Sources */,
 				FE8AB16521776D1F0011A3D0 /* UIImage+Lanmei.m in Sources */,
 				18EAEB392080D5A800A71674 /* GKPhoto.m in Sources */,
+				48031603229ADEA50091A651 /* orderHeader.m in Sources */,
 				FE8AB17221776D1F0011A3D0 /* CollectionViewController.m in Sources */,
 				FE8AB16C21776D1F0011A3D0 /* UINavigationBar+Awesome.m in Sources */,
 				48AA79452295871A0085A3D5 /* DWQTableHeaderView.m in Sources */,
@@ -2327,6 +2519,7 @@
 				182DF1F620F58FF8002CFE36 /* SinglePickerView.m in Sources */,
 				481B7DD5225D9304009E8ED7 /* NSString+Extension.m in Sources */,
 				FE8AB17321776D1F0011A3D0 /* TableViewController.m in Sources */,
+				480315FE229ADEA50091A651 /* waitingPayController.m in Sources */,
 				18EAEB0C2080D5A800A71674 /* WYCameraButton.m in Sources */,
 				18EAEB1A2080D5A800A71674 /* WYCameraController.m in Sources */,
 				FE8AB16321776D1F0011A3D0 /* NSDate+Category.m in Sources */,
@@ -2341,6 +2534,7 @@
 				48C82DE62294306100D2040A /* MineViewController.m in Sources */,
 				FE8AB17121776D1F0011A3D0 /* CustomNavViewController.m in Sources */,
 				1826BEB120AEA1C800902FC4 /* AliPay.m in Sources */,
+				480315FD229ADEA50091A651 /* waitingEvaluateController.m in Sources */,
 				48AA791822957B0E0085A3D5 /* MidContainerCollectionViewCell.m in Sources */,
 				18EAEB3C2080D5A800A71674 /* GKPhotoView.m in Sources */,
 				4870955C2296F245002AF107 /* MineHeadView.m in Sources */,

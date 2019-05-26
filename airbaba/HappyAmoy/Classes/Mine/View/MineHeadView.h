@@ -11,6 +11,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MineHeadView : UIView
+@property (nonatomic,copy)void(^dfkBtnBlock)(void);
+@property (nonatomic,copy)void(^dfhBtnBlock)(void);
+@property (nonatomic,copy)void(^dshBtnBlock)(void);
+@property (nonatomic,copy)void(^dpjBtnBlock)(void);
+@property (nonatomic,copy)void(^scanOrderBtnBlock)(void);
+
+@property (nonatomic,copy)void(^qcodeBtnBlock)(void);
+@property (nonatomic,copy)void(^moneyBtnBlock)(void);
 @property (weak, nonatomic) IBOutlet UIView *userInfoBgView;
 @property (weak, nonatomic) IBOutlet UIView *orderInfoBgView;
 @property (weak, nonatomic) IBOutlet UIView *toolInfoBgView;
@@ -31,6 +39,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *dfhBtn;
 @property (weak, nonatomic) IBOutlet UIButton *dshBtn;
 @property (weak, nonatomic) IBOutlet UIButton *dpjBtn;
+@property (weak, nonatomic) IBOutlet UIButton *mycollectionBtn;
+@property (weak, nonatomic) IBOutlet UIButton *adressBtn;
+@property (weak, nonatomic) IBOutlet UIButton *myteamBtn;
+@property (weak, nonatomic) IBOutlet UIButton *myrepairBtn;
+@property (weak, nonatomic) IBOutlet UIButton *applyBtn;
 
 
 @end
