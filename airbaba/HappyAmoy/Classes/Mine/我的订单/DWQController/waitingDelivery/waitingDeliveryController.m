@@ -16,7 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.view.frame = [UIScreen mainScreen].bounds;
+    //        //如果无网络
+    //        [self.view showErrorPageView];
+    //        [self.view configReloadAction:^{
+    //            NSLog(@"点击我就可以刷新了啊");
+    //        }];
+    
+    //空数据
+    [self.view showBlankPageView];
+    //隐藏
+    //[self.view hideBlankPageView];
 }
 
 - (void)didReceiveMemoryWarning {

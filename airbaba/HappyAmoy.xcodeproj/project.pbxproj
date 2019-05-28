@@ -157,6 +157,9 @@
 		48031603229ADEA50091A651 /* orderHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 480315F4229ADEA50091A651 /* orderHeader.m */; };
 		48031608229AE3930091A651 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48031606229AE3930091A651 /* OrderTableViewCell.m */; };
 		48031609229AE3930091A651 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48031607229AE3930091A651 /* OrderTableViewCell.xib */; };
+		481508A1229D7BCF002C0301 /* afterSaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4815089F229D7BCF002C0301 /* afterSaleViewController.m */; };
+		481508A2229D7BCF002C0301 /* afterSaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481508A0229D7BCF002C0301 /* afterSaleViewController.xib */; };
+		481508A6229D7DB0002C0301 /* UIView+DWQEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 481508A5229D7DB0002C0301 /* UIView+DWQEmptyView.m */; };
 		481B7DD2225D915E009E8ED7 /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 481B7DD0225D915D009E8ED7 /* UITextView+Extension.m */; };
 		481B7DD5225D9304009E8ED7 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 481B7DD4225D9303009E8ED7 /* NSString+Extension.m */; };
 		481B7DD9225D9446009E8ED7 /* BoolJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = 481B7DD7225D9446009E8ED7 /* BoolJudge.m */; };
@@ -606,6 +609,11 @@
 		48031605229AE3930091A651 /* OrderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
 		48031606229AE3930091A651 /* OrderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
 		48031607229AE3930091A651 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		4815089E229D7BCF002C0301 /* afterSaleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = afterSaleViewController.h; sourceTree = "<group>"; };
+		4815089F229D7BCF002C0301 /* afterSaleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = afterSaleViewController.m; sourceTree = "<group>"; };
+		481508A0229D7BCF002C0301 /* afterSaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = afterSaleViewController.xib; sourceTree = "<group>"; };
+		481508A4229D7DB0002C0301 /* UIView+DWQEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DWQEmptyView.h"; sourceTree = "<group>"; };
+		481508A5229D7DB0002C0301 /* UIView+DWQEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWQEmptyView.m"; sourceTree = "<group>"; };
 		481B7DD0225D915D009E8ED7 /* UITextView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
 		481B7DD1225D915E009E8ED7 /* UITextView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
 		481B7DD3225D9303009E8ED7 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
@@ -1142,6 +1150,7 @@
 		18EAEA542080D5A700A71674 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				481508A3229D7DB0002C0301 /* EmptyView */,
 				182DF1EE20F58FF8002CFE36 /* PickerView */,
 				1840623920A1953200894F87 /* Crash */,
 				18EAEA552080D5A700A71674 /* WYUploaderItem.m */,
@@ -1514,6 +1523,7 @@
 		480315D9229ADEA50091A651 /* DWQController */ = {
 			isa = PBXGroup;
 			children = (
+				4815089D229D7BAF002C0301 /* afterSale */,
 				480315DA229ADEA50091A651 /* allOrder */,
 				480315E1229ADEA50091A651 /* waitingDelivery */,
 				480315E5229ADEA50091A651 /* waitingEvaluate */,
@@ -1592,6 +1602,25 @@
 				48031607229AE3930091A651 /* OrderTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		4815089D229D7BAF002C0301 /* afterSale */ = {
+			isa = PBXGroup;
+			children = (
+				4815089E229D7BCF002C0301 /* afterSaleViewController.h */,
+				4815089F229D7BCF002C0301 /* afterSaleViewController.m */,
+				481508A0229D7BCF002C0301 /* afterSaleViewController.xib */,
+			);
+			path = afterSale;
+			sourceTree = "<group>";
+		};
+		481508A3229D7DB0002C0301 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				481508A4229D7DB0002C0301 /* UIView+DWQEmptyView.h */,
+				481508A5229D7DB0002C0301 /* UIView+DWQEmptyView.m */,
+			);
+			path = EmptyView;
 			sourceTree = "<group>";
 		};
 		481B7DD6225D9446009E8ED7 /* BoolJudge */ = {
@@ -2242,6 +2271,7 @@
 				48AA7958229587E30085A3D5 /* 榴莲.jpg in Resources */,
 				CC9DA15B21C7A10A006B4EB0 /* AlipaySDK.bundle in Resources */,
 				18EAEB352080D5A800A71674 /* placeholder.png in Resources */,
+				481508A2229D7BCF002C0301 /* afterSaleViewController.xib in Resources */,
 				FE05706F218740FE00E9A0C6 /* SearchAlertTitle.png in Resources */,
 				48AA7959229587E30085A3D5 /* 短裤.jpg in Resources */,
 				1826BE4220AE94F700902FC4 /* README.txt in Resources */,
@@ -2458,6 +2488,7 @@
 				18EAEB032080D5A800A71674 /* TZImagePickerController.m in Sources */,
 				FE8AB17021776D1F0011A3D0 /* ZWSViewController.m in Sources */,
 				FE8AB15A21776D1F0011A3D0 /* ImageLabelCollectionViewCell.m in Sources */,
+				481508A1229D7BCF002C0301 /* afterSaleViewController.m in Sources */,
 				483AB1272250B1B4009D965C /* SDRefreshFooterView.m in Sources */,
 				18EAEB072080D5A800A71674 /* WYProgress.m in Sources */,
 				18EAEB1F2080D5A800A71674 /* YBPopupMenu.m in Sources */,
@@ -2539,6 +2570,7 @@
 				18EAEB3C2080D5A800A71674 /* GKPhotoView.m in Sources */,
 				4870955C2296F245002AF107 /* MineHeadView.m in Sources */,
 				18EAEB012080D5A800A71674 /* TZPhotoPickerController.m in Sources */,
+				481508A6229D7DB0002C0301 /* UIView+DWQEmptyView.m in Sources */,
 				18EAEB0B2080D5A800A71674 /* WYTagFlowLayout.m in Sources */,
 				FE8AB15821776D1F0011A3D0 /* ZWSHomeViewController.m in Sources */,
 				18EAEB042080D5A800A71674 /* TZLocationManager.m in Sources */,

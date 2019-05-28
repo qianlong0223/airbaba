@@ -17,6 +17,7 @@
 #import "waitingDeliveryController.h"
 #import "waitingEvaluateController.h"
 #import "allOrderViewController.h"
+#import "afterSaleViewController.h"
 @interface DWQOrderListViewController ()<UIScrollViewDelegate>{
     UIScrollView *_scrollView;
     orderHeader *_headView;
@@ -50,7 +51,7 @@
     //消除强引用
     __weak typeof(self) weakSelf = self;
     _headView = [[orderHeader alloc]initWithFrame:CGRectMake(0, kNavHeight, self.view.bounds.size.width, 40)];
-    _headView.items = @[@"全部",@"待付款",@"待发货",@"待收货",@"待评价"];
+    _headView.items = @[@"全部",@"待付款",@"待发货",@"待收货",@"待评价",@"售后"];
     
  
     _headView.itemClickAtIndex = ^(NSInteger index){
@@ -61,7 +62,7 @@
     
     _scrollView = [[UIScrollView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(_headView.frame),DWQMainScreenWidth,DWQMainScreenHeight-kNavHeight-40)];
     _scrollView.backgroundColor = [UIColor yellowColor];
-    _scrollView.contentSize = CGSizeMake(_scrollView.bounds.size.width*5, _scrollView.bounds.size.height);
+    _scrollView.contentSize = CGSizeMake(_scrollView.bounds.size.width*6, _scrollView.bounds.size.height);
     _scrollView.pagingEnabled = YES;
     _scrollView.delegate = self;
     _scrollView.directionalLockEnabled = YES;
@@ -70,7 +71,7 @@
     [self addViewControllsToScrollView];
 
 }
-#pragma mark-将4个controller添加到applecontroller上
+#pragma mark-将5个controller添加到applecontroller上
 -(void)addViewControllsToScrollView
 {
     allOrderViewController * allvc = [[allOrderViewController alloc]init];
@@ -81,29 +82,29 @@
     
     waitingPayController * daifkvc = [[waitingPayController alloc]init];
     daifkvc.view.frame = CGRectMake(_scrollView.bounds.size.width, 0, _scrollView.bounds.size.width, _scrollView.bounds.size.height);
-    daifkvc.view.backgroundColor = [UIColor greenColor];
     [_scrollView addSubview:daifkvc.view];
     [self addChildViewController:daifkvc];
     
     waitingDeliveryController * daifhvc = [[waitingDeliveryController alloc]init];
     
     daifhvc.view.frame = CGRectMake(_scrollView.bounds.size.width*2, 0, _scrollView.bounds.size.width, _scrollView.bounds.size.height);
-    daifhvc.view.backgroundColor = [UIColor yellowColor];
     [_scrollView addSubview:daifhvc.view];
     [self addChildViewController:daifhvc];
     
     waitingReceiveController * daishvc = [[waitingReceiveController alloc]init];
     daishvc.view.frame = CGRectMake(_scrollView.bounds.size.width*3, 0, _scrollView.bounds.size.width, _scrollView.bounds.size.height);
-    daishvc.view.backgroundColor = [UIColor purpleColor];
     [_scrollView addSubview:daishvc.view];
     [self addChildViewController:daishvc];
     
     waitingEvaluateController * daipjvc = [[waitingEvaluateController alloc]init];
     daipjvc.view.frame = CGRectMake(_scrollView.bounds.size.width*4, 0, _scrollView.bounds.size.width, _scrollView.bounds.size.height);
-    daipjvc.view.backgroundColor = [UIColor purpleColor];
     [_scrollView addSubview:daipjvc.view];
     [self addChildViewController:daipjvc];
     
+    afterSaleViewController * afterSalevc = [[afterSaleViewController alloc]init];
+    afterSalevc.view.frame = CGRectMake(_scrollView.bounds.size.width*5, 0, _scrollView.bounds.size.width, _scrollView.bounds.size.height);
+    [_scrollView addSubview:afterSalevc.view];
+    [self addChildViewController:afterSalevc];
 }
 #pragma mark-通过点击button来改变scrollview的偏移量
 -(void)adjustScrollView:(NSInteger)index

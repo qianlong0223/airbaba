@@ -24,9 +24,19 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *goPayBtn;
 @property (weak, nonatomic) IBOutlet UIButton *cancelOrderBtn;
 //待收货的view
-
+@property (weak, nonatomic) IBOutlet UIView *dshView;
+@property (weak, nonatomic) IBOutlet UIButton *scanLogistcs;
+@property (weak, nonatomic) IBOutlet UIButton *sureBtn;
+//确认收货的view
+@property (weak, nonatomic) IBOutlet UIView *qrshView;
+@property (weak, nonatomic) IBOutlet UIButton *qScanLogistcs;
+@property (weak, nonatomic) IBOutlet UIButton *qShouHouBtn;
+@property (weak, nonatomic) IBOutlet UIButton *qJudge;
 
 //已完成的view
+@property (weak, nonatomic) IBOutlet UIView *finishView;
+@property (weak, nonatomic) IBOutlet UIButton *fScanLogistcs;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -32,6 +32,7 @@
         [buton setTitle:items[i] forState:UIControlStateNormal];
         [buton setTitleColor:[UIColor blackColor]forState:UIControlStateNormal];
         [buton setTitleColor:QHMainColor forState:UIControlStateSelected];
+        buton.titleLabel.font = TextFont(15);
         [buton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchDown];
         buton.tag = Button_Origin_Tag+i;
         [self addSubview:buton];
