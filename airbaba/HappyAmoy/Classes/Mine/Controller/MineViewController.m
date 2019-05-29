@@ -10,6 +10,8 @@
 #import "MineHeadView.h"
 #import "CodeView.h"
 #import "MoneyViewController.h"
+#import "IntegralViewController.h"
+#import "DiscountCouponViewController.h"
 #import "DWQOrderListViewController.h"
 #import "allOrderViewController.h"
 #import "waitingEvaluateController.h"
@@ -103,6 +105,14 @@
     }];
     [headerView setMoneyBtnBlock:^{
         MoneyViewController * vc = [[MoneyViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
+    [headerView setIntegralBtnBlock:^{
+        IntegralViewController * vc = [[IntegralViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
+    [headerView setDiscountCouponBtnBlock:^{
+        DiscountCouponViewController * vc = [[DiscountCouponViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }];
     return headerView;

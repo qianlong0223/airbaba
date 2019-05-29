@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,copy)void(^qcodeBtnBlock)(void);
 @property (nonatomic,copy)void(^moneyBtnBlock)(void);
+@property (nonatomic,copy)void(^integralBtnBlock)(void);
+@property (nonatomic,copy)void(^discountCouponBtnBlock)(void);
 @property (weak, nonatomic) IBOutlet UIView *userInfoBgView;
 @property (weak, nonatomic) IBOutlet UIView *orderInfoBgView;
 @property (weak, nonatomic) IBOutlet UIView *toolInfoBgView;

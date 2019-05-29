@@ -44,9 +44,14 @@
 
 - (IBAction)interglBtnClicked:(id)sender {
     
+    if (_integralBtnBlock) {
+        self.integralBtnBlock();
+    }
 }
 - (IBAction)ticketBtnClicked:(id)sender {
-    
+    if (_discountCouponBtnBlock) {
+        self.discountCouponBtnBlock();
+    }
 }
 - (IBAction)memberBtnClicked:(id)sender {
     

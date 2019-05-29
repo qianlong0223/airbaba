@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface waitingDeliveryController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *orderTableView;
 
 @end

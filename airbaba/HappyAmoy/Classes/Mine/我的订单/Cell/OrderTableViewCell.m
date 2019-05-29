@@ -28,7 +28,9 @@
 }
 //取消订单
 - (IBAction)cancelOrderBtnClicked:(id)sender {
-    
+    if (_cancelOrderBlock) {
+        self.cancelOrderBlock();
+    }
 }
 //查看物流
 - (IBAction)scanLogistcsClicked:(id)sender {

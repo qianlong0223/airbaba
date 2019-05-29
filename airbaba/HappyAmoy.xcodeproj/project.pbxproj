@@ -178,6 +178,21 @@
 		483AB1282250B1B4009D965C /* SDRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 483AB1232250B1B3009D965C /* SDRefreshView.m */; };
 		4870955C2296F245002AF107 /* MineHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4870955B2296F245002AF107 /* MineHeadView.m */; };
 		4870955E2296F255002AF107 /* MineHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4870955D2296F255002AF107 /* MineHeadView.xib */; };
+		489FCB9A229EB76D001E77E5 /* IntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCB98229EB76D001E77E5 /* IntegralViewController.m */; };
+		489FCB9B229EB76D001E77E5 /* IntegralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489FCB99229EB76D001E77E5 /* IntegralViewController.xib */; };
+		489FCBAB229EBBE1001E77E5 /* UIView+LLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBA0229EBBE1001E77E5 /* UIView+LLSegmentBar.m */; };
+		489FCBAC229EBBE1001E77E5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 489FCBA4229EBBE1001E77E5 /* .gitkeep */; };
+		489FCBAD229EBBE1001E77E5 /* LLSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBA5229EBBE1001E77E5 /* LLSegmentBarConfig.m */; };
+		489FCBAE229EBBE1001E77E5 /* LLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBA7229EBBE1001E77E5 /* LLSegmentBar.m */; };
+		489FCBAF229EBBE1001E77E5 /* LLSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBA8229EBBE1001E77E5 /* LLSegmentBarVC.m */; };
+		489FCBB0229EBBE1001E77E5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 489FCBAA229EBBE1001E77E5 /* .gitkeep */; };
+		489FCBB4229EBC92001E77E5 /* DiscountCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBB3229EBC92001E77E5 /* DiscountCouponViewController.m */; };
+		489FCBB7229EBD42001E77E5 /* NonUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBB6229EBD42001E77E5 /* NonUserViewController.m */; };
+		489FCBC3229EBEB8001E77E5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBC2229EBEB8001E77E5 /* UserViewController.m */; };
+		489FCBC6229EBECD001E77E5 /* ValidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBC5229EBECD001E77E5 /* ValidViewController.m */; };
+		489FCBCD229EE30B001E77E5 /* PromptCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBC8229EE30B001E77E5 /* PromptCell.m */; };
+		489FCBCE229EE30B001E77E5 /* PromptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489FCBC9229EE30B001E77E5 /* PromptCell.xib */; };
+		489FCBCF229EE30B001E77E5 /* KPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBCA229EE30B001E77E5 /* KPromptView.m */; };
 		48AA791822957B0E0085A3D5 /* MidContainerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AA791622957B0E0085A3D5 /* MidContainerCollectionViewCell.m */; };
 		48AA791922957B0E0085A3D5 /* MidContainerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48AA791722957B0E0085A3D5 /* MidContainerCollectionViewCell.xib */; };
 		48AA79362295871A0085A3D5 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AA791C2295871A0085A3D5 /* UIViewExt.m */; };
@@ -651,6 +666,32 @@
 		4870955A2296F245002AF107 /* MineHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineHeadView.h; sourceTree = "<group>"; };
 		4870955B2296F245002AF107 /* MineHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineHeadView.m; sourceTree = "<group>"; };
 		4870955D2296F255002AF107 /* MineHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineHeadView.xib; sourceTree = "<group>"; };
+		489FCB97229EB76D001E77E5 /* IntegralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegralViewController.h; sourceTree = "<group>"; };
+		489FCB98229EB76D001E77E5 /* IntegralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegralViewController.m; sourceTree = "<group>"; };
+		489FCB99229EB76D001E77E5 /* IntegralViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntegralViewController.xib; sourceTree = "<group>"; };
+		489FCBA0229EBBE1001E77E5 /* UIView+LLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LLSegmentBar.m"; sourceTree = "<group>"; };
+		489FCBA1229EBBE1001E77E5 /* LLSegmentBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBarConfig.h; sourceTree = "<group>"; };
+		489FCBA2229EBBE1001E77E5 /* LLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBar.h; sourceTree = "<group>"; };
+		489FCBA3229EBBE1001E77E5 /* LLSegmentBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSegmentBarVC.h; sourceTree = "<group>"; };
+		489FCBA4229EBBE1001E77E5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		489FCBA5229EBBE1001E77E5 /* LLSegmentBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBarConfig.m; sourceTree = "<group>"; };
+		489FCBA6229EBBE1001E77E5 /* UIView+LLSegmentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LLSegmentBar.h"; sourceTree = "<group>"; };
+		489FCBA7229EBBE1001E77E5 /* LLSegmentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBar.m; sourceTree = "<group>"; };
+		489FCBA8229EBBE1001E77E5 /* LLSegmentBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSegmentBarVC.m; sourceTree = "<group>"; };
+		489FCBAA229EBBE1001E77E5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		489FCBB2229EBC92001E77E5 /* DiscountCouponViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscountCouponViewController.h; sourceTree = "<group>"; };
+		489FCBB3229EBC92001E77E5 /* DiscountCouponViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscountCouponViewController.m; sourceTree = "<group>"; };
+		489FCBB5229EBD42001E77E5 /* NonUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NonUserViewController.h; sourceTree = "<group>"; };
+		489FCBB6229EBD42001E77E5 /* NonUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NonUserViewController.m; sourceTree = "<group>"; };
+		489FCBC1229EBEB8001E77E5 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		489FCBC2229EBEB8001E77E5 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		489FCBC4229EBECD001E77E5 /* ValidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidViewController.h; sourceTree = "<group>"; };
+		489FCBC5229EBECD001E77E5 /* ValidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidViewController.m; sourceTree = "<group>"; };
+		489FCBC8229EE30B001E77E5 /* PromptCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptCell.m; sourceTree = "<group>"; };
+		489FCBC9229EE30B001E77E5 /* PromptCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PromptCell.xib; sourceTree = "<group>"; };
+		489FCBCA229EE30B001E77E5 /* KPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPromptView.m; sourceTree = "<group>"; };
+		489FCBCB229EE30B001E77E5 /* KPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPromptView.h; sourceTree = "<group>"; };
+		489FCBCC229EE30B001E77E5 /* PromptCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptCell.h; sourceTree = "<group>"; };
 		48AA791522957B0E0085A3D5 /* MidContainerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MidContainerCollectionViewCell.h; sourceTree = "<group>"; };
 		48AA791622957B0E0085A3D5 /* MidContainerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MidContainerCollectionViewCell.m; sourceTree = "<group>"; };
 		48AA791722957B0E0085A3D5 /* MidContainerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MidContainerCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -1150,6 +1191,7 @@
 		18EAEA542080D5A700A71674 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				489FCB9E229EBBE1001E77E5 /* LLSegmentBar */,
 				481508A3229D7DB0002C0301 /* EmptyView */,
 				182DF1EE20F58FF8002CFE36 /* PickerView */,
 				1840623920A1953200894F87 /* Crash */,
@@ -1506,6 +1548,9 @@
 				480315D3229AD6780091A651 /* MoneyViewController.h */,
 				480315D4229AD6780091A651 /* MoneyViewController.m */,
 				480315D5229AD6780091A651 /* MoneyViewController.xib */,
+				489FCB97229EB76D001E77E5 /* IntegralViewController.h */,
+				489FCB98229EB76D001E77E5 /* IntegralViewController.m */,
+				489FCB99229EB76D001E77E5 /* IntegralViewController.xib */,
 			);
 			path = "钱包";
 			sourceTree = "<group>";
@@ -1675,6 +1720,66 @@
 			path = SDRefeshView;
 			sourceTree = "<group>";
 		};
+		489FCB9E229EBBE1001E77E5 /* LLSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				489FCB9F229EBBE1001E77E5 /* Classes */,
+				489FCBA9229EBBE1001E77E5 /* Assets */,
+			);
+			path = LLSegmentBar;
+			sourceTree = "<group>";
+		};
+		489FCB9F229EBBE1001E77E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				489FCBA0229EBBE1001E77E5 /* UIView+LLSegmentBar.m */,
+				489FCBA1229EBBE1001E77E5 /* LLSegmentBarConfig.h */,
+				489FCBA2229EBBE1001E77E5 /* LLSegmentBar.h */,
+				489FCBA3229EBBE1001E77E5 /* LLSegmentBarVC.h */,
+				489FCBA4229EBBE1001E77E5 /* .gitkeep */,
+				489FCBA5229EBBE1001E77E5 /* LLSegmentBarConfig.m */,
+				489FCBA6229EBBE1001E77E5 /* UIView+LLSegmentBar.h */,
+				489FCBA7229EBBE1001E77E5 /* LLSegmentBar.m */,
+				489FCBA8229EBBE1001E77E5 /* LLSegmentBarVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		489FCBA9229EBBE1001E77E5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				489FCBAA229EBBE1001E77E5 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		489FCBB1229EBC1E001E77E5 /* 优惠券 */ = {
+			isa = PBXGroup;
+			children = (
+				489FCBB2229EBC92001E77E5 /* DiscountCouponViewController.h */,
+				489FCBB3229EBC92001E77E5 /* DiscountCouponViewController.m */,
+				489FCBB5229EBD42001E77E5 /* NonUserViewController.h */,
+				489FCBB6229EBD42001E77E5 /* NonUserViewController.m */,
+				489FCBC1229EBEB8001E77E5 /* UserViewController.h */,
+				489FCBC2229EBEB8001E77E5 /* UserViewController.m */,
+				489FCBC4229EBECD001E77E5 /* ValidViewController.h */,
+				489FCBC5229EBECD001E77E5 /* ValidViewController.m */,
+			);
+			path = "优惠券";
+			sourceTree = "<group>";
+		};
+		489FCBC7229EE2E3001E77E5 /* 取消订单弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				489FCBCB229EE30B001E77E5 /* KPromptView.h */,
+				489FCBCA229EE30B001E77E5 /* KPromptView.m */,
+				489FCBCC229EE30B001E77E5 /* PromptCell.h */,
+				489FCBC8229EE30B001E77E5 /* PromptCell.m */,
+				489FCBC9229EE30B001E77E5 /* PromptCell.xib */,
+			);
+			path = "取消订单弹窗";
+			sourceTree = "<group>";
+		};
 		48AA791A2295871A0085A3D5 /* DWQShoppingCart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1794,6 +1899,8 @@
 		48C82DC822942F3700D2040A /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				489FCBC7229EE2E3001E77E5 /* 取消订单弹窗 */,
+				489FCBB1229EBC1E001E77E5 /* 优惠券 */,
 				480315D8229ADEA50091A651 /* 我的订单 */,
 				480315D2229AD63C0091A651 /* 钱包 */,
 				480315C8229AC8360091A651 /* 我的邀请码 */,
@@ -2260,12 +2367,14 @@
 			files = (
 				48AA795A229587E30085A3D5 /* 女装.jpg in Resources */,
 				480315FF229ADEA50091A651 /* waitingPayController.xib in Resources */,
+				489FCBAC229EBBE1001E77E5 /* .gitkeep in Resources */,
 				480315CE229AC85A0091A651 /* QGCodePopView.xib in Resources */,
 				182DF1F720F58FF8002CFE36 /* JWAddress.plist in Resources */,
 				480315F7229ADEA50091A651 /* allOrderViewController.xib in Resources */,
 				48AA79382295871A0085A3D5 /* cart_addBtn_nomal@2x.png in Resources */,
 				18EAEA252080D42E00A71674 /* LaunchScreen.storyboard in Resources */,
 				18EAEAFE2080D5A800A71674 /* TZImagePickerController.bundle in Resources */,
+				489FCB9B229EB76D001E77E5 /* IntegralViewController.xib in Resources */,
 				48AA793D2295871A0085A3D5 /* cart_selected_btn@3x.png in Resources */,
 				48AA79402295871A0085A3D5 /* back_button@2x.png in Resources */,
 				48AA7958229587E30085A3D5 /* 榴莲.jpg in Resources */,
@@ -2286,6 +2395,7 @@
 				4870955E2296F255002AF107 /* MineHeadView.xib in Resources */,
 				48AA79412295871A0085A3D5 /* cart_cutBtn_nomal@3x.png in Resources */,
 				48AA793A2295871A0085A3D5 /* cart_addBtn_nomal@3x.png in Resources */,
+				489FCBCE229EE30B001E77E5 /* PromptCell.xib in Resources */,
 				48AA793E2295871A0085A3D5 /* cart_unSelect_btn@3x.png in Resources */,
 				188696F8209E0AF30014B9DC /* 时尚中黑简体.ttf in Resources */,
 				48C82E052294596600D2040A /* QGRecommendCell.xib in Resources */,
@@ -2311,6 +2421,7 @@
 				183407BC20B687540053045E /* NBResource.bundle in Resources */,
 				48AA793B2295871A0085A3D5 /* cart_unSelect_btn@2x.png in Resources */,
 				48AA793F2295871A0085A3D5 /* cart_cutBtn_nomal@2x.png in Resources */,
+				489FCBB0229EBBE1001E77E5 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2421,6 +2532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EAEB292080D5A800A71674 /* NSDictionary+extension.m in Sources */,
+				489FCBB4229EBC92001E77E5 /* DiscountCouponViewController.m in Sources */,
 				1826BE5020AE95DC00902FC4 /* XMLDictionary.m in Sources */,
 				FE8AB16121776D1F0011A3D0 /* JSONData.m in Sources */,
 				FE05706C21873FF000E9A0C6 /* ZWSSearchAlertViewController.m in Sources */,
@@ -2441,6 +2553,7 @@
 				48C82E042294596600D2040A /* QGRecommendCell.m in Sources */,
 				481B7DD2225D915E009E8ED7 /* UITextView+Extension.m in Sources */,
 				48C82DFF2294593A00D2040A /* QGSelectCollectionReusableView.m in Sources */,
+				489FCBB7229EBD42001E77E5 /* NonUserViewController.m in Sources */,
 				18EAEAFB2080D5A800A71674 /* NSBundle+TZImagePicker.m in Sources */,
 				18EAEB2E2080D5A800A71674 /* NSString+Time.m in Sources */,
 				18EAEB2F2080D5A800A71674 /* UIView+QuickView.m in Sources */,
@@ -2449,6 +2562,7 @@
 				48031601229ADEA50091A651 /* waitingReceiveController.m in Sources */,
 				18EAEB202080D5A800A71674 /* WYUserDefaultManager.m in Sources */,
 				18EAEB0A2080D5A800A71674 /* WYTagView.m in Sources */,
+				489FCBAD229EBBE1001E77E5 /* LLSegmentBarConfig.m in Sources */,
 				18EAEAF42080D5A800A71674 /* WYUploaderItem.m in Sources */,
 				1826BE6120AE9ECA00902FC4 /* openssl_wrapper.m in Sources */,
 				18EAEB322080D5A800A71674 /* QHConfigureConst.m in Sources */,
@@ -2457,8 +2571,10 @@
 				18EAEB432080D61F00A71674 /* main.m in Sources */,
 				FE8AB16B21776D1F0011A3D0 /* NSDate+WQCalendarLogic.m in Sources */,
 				1826BE6220AE9ECA00902FC4 /* APRSASigner.m in Sources */,
+				489FCBAF229EBBE1001E77E5 /* LLSegmentBarVC.m in Sources */,
 				48AA79372295871A0085A3D5 /* DWQCartViewController.m in Sources */,
 				18EAEB1B2080D5A800A71674 /* WYHud.m in Sources */,
+				489FCB9A229EB76D001E77E5 /* IntegralViewController.m in Sources */,
 				18EAEB3A2080D5A800A71674 /* GKWebImageManager.m in Sources */,
 				FE8AB15621776D1F0011A3D0 /* ImageCollectionViewCell.m in Sources */,
 				18EAEB282080D5A800A71674 /* NSArray+extension.m in Sources */,
@@ -2503,6 +2619,7 @@
 				18EAEB362080D5A800A71674 /* GKLoadingView.m in Sources */,
 				483AB09B224F63C0009D965C /* UIView+SDAutoLayout.m in Sources */,
 				FE8AB15E21776D1F0011A3D0 /* MyScrollView.m in Sources */,
+				489FCBAB229EBBE1001E77E5 /* UIView+LLSegmentBar.m in Sources */,
 				FE8AB15D21776D1F0011A3D0 /* MyPickerView.m in Sources */,
 				18EAEB262080D5A800A71674 /* UIView+Frame.m in Sources */,
 				18EAEB022080D5A800A71674 /* TZPhotoPreviewCell.m in Sources */,
@@ -2541,6 +2658,7 @@
 				481B7DD9225D9446009E8ED7 /* BoolJudge.m in Sources */,
 				18EAEB2A2080D5A800A71674 /* NSString+Json.m in Sources */,
 				18EAEAFD2080D5A800A71674 /* TZPhotoPreviewController.m in Sources */,
+				489FCBC3229EBEB8001E77E5 /* UserViewController.m in Sources */,
 				1826BE5120AE95DC00902FC4 /* WXApiManager.m in Sources */,
 				483AB1242250B1B4009D965C /* SDRefreshHeaderView.m in Sources */,
 				483AAFE4224B439D009D965C /* CALayer+Extension.m in Sources */,
@@ -2552,11 +2670,13 @@
 				FE8AB17321776D1F0011A3D0 /* TableViewController.m in Sources */,
 				480315FE229ADEA50091A651 /* waitingPayController.m in Sources */,
 				18EAEB0C2080D5A800A71674 /* WYCameraButton.m in Sources */,
+				489FCBC6229EBECD001E77E5 /* ValidViewController.m in Sources */,
 				18EAEB1A2080D5A800A71674 /* WYCameraController.m in Sources */,
 				FE8AB16321776D1F0011A3D0 /* NSDate+Category.m in Sources */,
 				FE8AB15C21776D1F0011A3D0 /* PlaceholderTextView.m in Sources */,
 				188696F3209DED3D0014B9DC /* UIButton+Gradient.m in Sources */,
 				182DF1F920F58FF8002CFE36 /* JWAddressPickerView.m in Sources */,
+				489FCBCD229EE30B001E77E5 /* PromptCell.m in Sources */,
 				18EAEB1C2080D5A800A71674 /* WYFileTool.m in Sources */,
 				FE8AB16021776D1F0011A3D0 /* ZWSFileManager.m in Sources */,
 				1821737620982E45007ADC97 /* NSString+WordMixFace.m in Sources */,
@@ -2572,11 +2692,13 @@
 				18EAEB012080D5A800A71674 /* TZPhotoPickerController.m in Sources */,
 				481508A6229D7DB0002C0301 /* UIView+DWQEmptyView.m in Sources */,
 				18EAEB0B2080D5A800A71674 /* WYTagFlowLayout.m in Sources */,
+				489FCBAE229EBBE1001E77E5 /* LLSegmentBar.m in Sources */,
 				FE8AB15821776D1F0011A3D0 /* ZWSHomeViewController.m in Sources */,
 				18EAEB042080D5A800A71674 /* TZLocationManager.m in Sources */,
 				FE8AB15921776D1F0011A3D0 /* TextCollectionReusableView.m in Sources */,
 				18EAEAF92080D5A800A71674 /* TZVideoPlayerController.m in Sources */,
 				FE8AB15B21776D1F0011A3D0 /* MySegmentedControl.m in Sources */,
+				489FCBCF229EE30B001E77E5 /* KPromptView.m in Sources */,
 				18EAEB5820810CBA00A71674 /* BaseViewControll.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2745,7 +2867,7 @@
 				CODE_SIGN_ENTITLEMENTS = HappyAmoy/HappyAmoy.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5M43B9PR5H;
+				DEVELOPMENT_TEAM = 4Q25NDCGCJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2835,7 +2957,7 @@
 					"\"UserNotifications\"",
 					"-lstdc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.csmt.phonelive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbaba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2856,7 +2978,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = 5M43B9PR5H;
+				DEVELOPMENT_TEAM = 4Q25NDCGCJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2946,7 +3068,7 @@
 					"\"UserNotifications\"",
 					"-lstdc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.csmt.phonelive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airbaba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

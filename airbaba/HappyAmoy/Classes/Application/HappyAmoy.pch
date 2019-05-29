@@ -16,6 +16,7 @@
 #import "QHConfigureConst.h"
 #import "MXWechatConfig.h"
 #import "UIView+DWQEmptyView.h"
+#import "KPromptView.h"
 //ZWS省惠优选3.0
 #import "MyData.h"
 #endif /* HappyAmoy_pch */
