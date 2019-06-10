@@ -237,6 +237,10 @@
 		48C82E042294596600D2040A /* QGRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C82E012294596600D2040A /* QGRecommendCell.m */; };
 		48C82E052294596600D2040A /* QGRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48C82E022294596600D2040A /* QGRecommendCell.xib */; };
 		48C82E09229459E600D2040A /* SYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C82E08229459E600D2040A /* SYButton.m */; };
+		48DA6C9322ACDC0700DAEC2C /* OrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA6C9122ACDC0700DAEC2C /* OrderDetailViewController.m */; };
+		48DA6C9422ACDC0700DAEC2C /* OrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DA6C9222ACDC0700DAEC2C /* OrderDetailViewController.xib */; };
+		48DA6C9822ACDDFD00DAEC2C /* OrderDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48DA6C9622ACDDFD00DAEC2C /* OrderDetailTableViewCell.m */; };
+		48DA6C9922ACDDFD00DAEC2C /* OrderDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48DA6C9722ACDDFD00DAEC2C /* OrderDetailTableViewCell.xib */; };
 		CC9DA15A21C7A10A006B4EB0 /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9DA15821C7A10A006B4EB0 /* AlipaySDK.framework */; };
 		CC9DA15B21C7A10A006B4EB0 /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC9DA15921C7A10A006B4EB0 /* AlipaySDK.bundle */; };
 		CC9DA15E21C7A345006B4EB0 /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9DA15C21C7A344006B4EB0 /* UTDID.framework */; };
@@ -756,6 +760,12 @@
 		48C82E032294596600D2040A /* QGRecommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGRecommendCell.h; sourceTree = "<group>"; };
 		48C82E07229459E600D2040A /* SYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYButton.h; sourceTree = "<group>"; };
 		48C82E08229459E600D2040A /* SYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYButton.m; sourceTree = "<group>"; };
+		48DA6C9022ACDC0700DAEC2C /* OrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailViewController.h; sourceTree = "<group>"; };
+		48DA6C9122ACDC0700DAEC2C /* OrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailViewController.m; sourceTree = "<group>"; };
+		48DA6C9222ACDC0700DAEC2C /* OrderDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailViewController.xib; sourceTree = "<group>"; };
+		48DA6C9522ACDDFD00DAEC2C /* OrderDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailTableViewCell.h; sourceTree = "<group>"; };
+		48DA6C9622ACDDFD00DAEC2C /* OrderDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailTableViewCell.m; sourceTree = "<group>"; };
+		48DA6C9722ACDDFD00DAEC2C /* OrderDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailTableViewCell.xib; sourceTree = "<group>"; };
 		A36047477D182687A4EA386A /* Pods_HappyAmoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyAmoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9DA15821C7A10A006B4EB0 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		CC9DA15921C7A10A006B4EB0 /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
@@ -1576,6 +1586,9 @@
 				480315EE229ADEA50091A651 /* waitingReceive */,
 				480315DF229ADEA50091A651 /* DWQOrderListViewController.h */,
 				480315ED229ADEA50091A651 /* DWQOrderListViewController.m */,
+				48DA6C9022ACDC0700DAEC2C /* OrderDetailViewController.h */,
+				48DA6C9122ACDC0700DAEC2C /* OrderDetailViewController.m */,
+				48DA6C9222ACDC0700DAEC2C /* OrderDetailViewController.xib */,
 			);
 			path = DWQController;
 			sourceTree = "<group>";
@@ -1645,6 +1658,9 @@
 				48031605229AE3930091A651 /* OrderTableViewCell.h */,
 				48031606229AE3930091A651 /* OrderTableViewCell.m */,
 				48031607229AE3930091A651 /* OrderTableViewCell.xib */,
+				48DA6C9522ACDDFD00DAEC2C /* OrderDetailTableViewCell.h */,
+				48DA6C9622ACDDFD00DAEC2C /* OrderDetailTableViewCell.m */,
+				48DA6C9722ACDDFD00DAEC2C /* OrderDetailTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -2402,6 +2418,7 @@
 				48AA791922957B0E0085A3D5 /* MidContainerCollectionViewCell.xib in Resources */,
 				18EAEB3B2080D5A800A71674 /* GKPhotoBrowser.bundle in Resources */,
 				48AA795D229587E30085A3D5 /* swift.jpg in Resources */,
+				48DA6C9922ACDDFD00DAEC2C /* OrderDetailTableViewCell.xib in Resources */,
 				18EAEA202080D42E00A71674 /* Main.storyboard in Resources */,
 				18EAEB082080D5A800A71674 /* WYTagCell.xib in Resources */,
 				182AAB6020FF8818006EAC7E /* areas.csv in Resources */,
@@ -2417,6 +2434,7 @@
 				483AB1252250B1B4009D965C /* sdRefeshView_arrow@2x.png in Resources */,
 				48AA7955229587E30085A3D5 /* 牛鞭.jpg in Resources */,
 				48AA795C229587E30085A3D5 /* 西服.jpg in Resources */,
+				48DA6C9422ACDC0700DAEC2C /* OrderDetailViewController.xib in Resources */,
 				48C82E002294593A00D2040A /* QGSelectCollectionReusableView.xib in Resources */,
 				183407BC20B687540053045E /* NBResource.bundle in Resources */,
 				48AA793B2295871A0085A3D5 /* cart_unSelect_btn@2x.png in Resources */,
@@ -2577,10 +2595,12 @@
 				489FCB9A229EB76D001E77E5 /* IntegralViewController.m in Sources */,
 				18EAEB3A2080D5A800A71674 /* GKWebImageManager.m in Sources */,
 				FE8AB15621776D1F0011A3D0 /* ImageCollectionViewCell.m in Sources */,
+				48DA6C9322ACDC0700DAEC2C /* OrderDetailViewController.m in Sources */,
 				18EAEB282080D5A800A71674 /* NSArray+extension.m in Sources */,
 				483AB0A5224F63DC009D965C /* SDPhotoBrowser.m in Sources */,
 				1840623820A194F600894F87 /* QHCrashManager.m in Sources */,
 				483AB1282250B1B4009D965C /* SDRefreshView.m in Sources */,
+				48DA6C9822ACDDFD00DAEC2C /* OrderDetailTableViewCell.m in Sources */,
 				480315FB229ADEA50091A651 /* waitingDeliveryController.m in Sources */,
 				18EAEB212080D5A800A71674 /* WYUtils.m in Sources */,
 				18EAEB242080D5A800A71674 /* UIImageView+WYWebImage.m in Sources */,

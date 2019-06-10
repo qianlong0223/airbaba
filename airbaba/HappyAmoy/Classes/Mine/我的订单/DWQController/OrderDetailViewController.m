@@ -1,25 +1,25 @@
 //
-//  afterSaleViewController.m
+//  OrderDetailViewController.m
 //  HappyAmoy
 //
-//  Created by 钱龙 on 2019/5/28.
+//  Created by 钱龙 on 2019/6/9.
 //  Copyright © 2019年 apple. All rights reserved.
 //
 
-#import "afterSaleViewController.h"
-#import "OrderTableViewCell.h"
-@interface afterSaleViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
-
-@property (weak, nonatomic) IBOutlet UITableView *orderTableView;
+#import "OrderDetailViewController.h"
+#import "OrderDetailTableViewCell.h"
+@interface OrderDetailViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *orderDetailTable;
 
 @end
 
-@implementation afterSaleViewController
+@implementation OrderDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [self.view addSubview:self.orderTableView];
+    [self.view addSubview:self.orderDetailTable];
+    
 }
 #pragma mark - 数据源方法
 // 返回行数
@@ -31,15 +31,13 @@
 }
 // 设置cell
 - (UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
-    static NSString * JGFirstOneCellId = @"OrderTableViewCell";
-    OrderTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:JGFirstOneCellId];
+    static NSString * JGFirstOneCellId = @"OrderDetailTableViewCell";
+    OrderDetailTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:JGFirstOneCellId];
     if (cell == nil) {
         cell = [[[NSBundle mainBundle]loadNibNamed:JGFirstOneCellId owner:nil options:nil]lastObject];
     }
-    cell.dfkView.hidden = YES;
-    cell.dshView.hidden = YES;
-    cell.qrshView.hidden = YES;
-    cell.finishView.hidden = NO;
+    
+    
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }

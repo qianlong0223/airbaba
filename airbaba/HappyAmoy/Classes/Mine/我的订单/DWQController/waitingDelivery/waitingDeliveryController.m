@@ -52,12 +52,16 @@
     }
 //    cell.dfkView.hidden = YES;
     cell.dshView.hidden = YES;
+    
+    
     cell.qrshView.hidden = YES;
     cell.finishView.hidden = YES;
     [cell setCancelOrderBlock:^{
         UIWindow * window = [UIApplication sharedApplication].delegate.window;
         NSArray * array = @[@"地址信息填写错误",@"商品信息填写错误",@"其他",@"商品无货",@"不想要了",@"商品降价"];
         KPromptView * kproptView = [[KPromptView alloc]initWithFrame:window.frame title:@"取消订单" cellArray:array indexPath:nil];
+        
+        
         
         [window addSubview:kproptView];
     }];

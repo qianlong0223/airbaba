@@ -10,7 +10,7 @@
 #define DWQMainScreenBounds [UIScreen mainScreen].bounds
 #define Button_Origin_Tag 78
 #import <UIKit/UIKit.h>
-
-@interface DWQOrderListViewController : UIViewController
+#import "BaseViewControll.h"
+@interface DWQOrderListViewController : BaseViewControll
 @property (nonatomic,assign) NSInteger index;
 @end

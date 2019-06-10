@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="afterSaleViewController">
             <connections>
+                <outlet property="orderTableView" destination="21C-Rq-QGG" id="Av9-H5-8Ue"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,7 +19,23 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.32820054009999999" green="0.62477726160000002" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="21C-Rq-QGG">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="cQx-cg-oII"/>
+                        <outlet property="delegate" destination="-1" id="el9-Vw-igB"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="21C-Rq-QGG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Dco-SC-e58"/>
+                <constraint firstAttribute="bottom" secondItem="21C-Rq-QGG" secondAttribute="bottom" id="IMA-6S-X9V"/>
+                <constraint firstItem="21C-Rq-QGG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="coY-4R-b62"/>
+                <constraint firstAttribute="trailing" secondItem="21C-Rq-QGG" secondAttribute="trailing" id="xVU-IN-UmO"/>
+            </constraints>
         </view>
     </objects>
 </document>
