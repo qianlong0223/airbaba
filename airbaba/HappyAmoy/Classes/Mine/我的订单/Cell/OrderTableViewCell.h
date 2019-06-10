@@ -11,8 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface OrderTableViewCell : UITableViewCell
-@property(nonatomic,copy)void(^cancelOrderBlock)();
 
+@property(nonatomic,strong)void(^cancelOrderBlock)();
+
+@property(nonatomic,strong)void(^OrderDetailBlock)();
 
 @property (weak, nonatomic) IBOutlet UILabel *storeName;
 @property (weak, nonatomic) IBOutlet UILabel *orderStatus;

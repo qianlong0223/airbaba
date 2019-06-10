@@ -7,6 +7,7 @@
 //
 
 #import "afterSaleViewController.h"
+#import "OrderDetailViewController.h"
 #import "OrderTableViewCell.h"
 @interface afterSaleViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
@@ -40,6 +41,10 @@
     cell.dshView.hidden = YES;
     cell.qrshView.hidden = YES;
     cell.finishView.hidden = NO;
+    [cell setOrderDetailBlock:^{
+        OrderDetailViewController *vc = [[OrderDetailViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }

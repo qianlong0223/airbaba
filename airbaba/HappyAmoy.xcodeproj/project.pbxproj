@@ -178,6 +178,8 @@
 		483AB1282250B1B4009D965C /* SDRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 483AB1232250B1B3009D965C /* SDRefreshView.m */; };
 		4870955C2296F245002AF107 /* MineHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4870955B2296F245002AF107 /* MineHeadView.m */; };
 		4870955E2296F255002AF107 /* MineHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4870955D2296F255002AF107 /* MineHeadView.xib */; };
+		488C900022AE98B100BDD145 /* OrderDetailFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 488C8FFF22AE98B100BDD145 /* OrderDetailFooterView.m */; };
+		488C900222AE98BE00BDD145 /* OrderDetailFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 488C900122AE98BE00BDD145 /* OrderDetailFooterView.xib */; };
 		489FCB9A229EB76D001E77E5 /* IntegralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCB98229EB76D001E77E5 /* IntegralViewController.m */; };
 		489FCB9B229EB76D001E77E5 /* IntegralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489FCB99229EB76D001E77E5 /* IntegralViewController.xib */; };
 		489FCBAB229EBBE1001E77E5 /* UIView+LLSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 489FCBA0229EBBE1001E77E5 /* UIView+LLSegmentBar.m */; };
@@ -670,6 +672,9 @@
 		4870955A2296F245002AF107 /* MineHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineHeadView.h; sourceTree = "<group>"; };
 		4870955B2296F245002AF107 /* MineHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineHeadView.m; sourceTree = "<group>"; };
 		4870955D2296F255002AF107 /* MineHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MineHeadView.xib; sourceTree = "<group>"; };
+		488C8FFE22AE98B100BDD145 /* OrderDetailFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderDetailFooterView.h; sourceTree = "<group>"; };
+		488C8FFF22AE98B100BDD145 /* OrderDetailFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderDetailFooterView.m; sourceTree = "<group>"; };
+		488C900122AE98BE00BDD145 /* OrderDetailFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderDetailFooterView.xib; sourceTree = "<group>"; };
 		489FCB97229EB76D001E77E5 /* IntegralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegralViewController.h; sourceTree = "<group>"; };
 		489FCB98229EB76D001E77E5 /* IntegralViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegralViewController.m; sourceTree = "<group>"; };
 		489FCB99229EB76D001E77E5 /* IntegralViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntegralViewController.xib; sourceTree = "<group>"; };
@@ -1589,6 +1594,9 @@
 				48DA6C9022ACDC0700DAEC2C /* OrderDetailViewController.h */,
 				48DA6C9122ACDC0700DAEC2C /* OrderDetailViewController.m */,
 				48DA6C9222ACDC0700DAEC2C /* OrderDetailViewController.xib */,
+				488C8FFE22AE98B100BDD145 /* OrderDetailFooterView.h */,
+				488C8FFF22AE98B100BDD145 /* OrderDetailFooterView.m */,
+				488C900122AE98BE00BDD145 /* OrderDetailFooterView.xib */,
 			);
 			path = DWQController;
 			sourceTree = "<group>";
@@ -2428,6 +2436,7 @@
 				480315D7229AD6780091A651 /* MoneyViewController.xib in Resources */,
 				48AA795B229587E30085A3D5 /* 猪头肉.jpg in Resources */,
 				48AA7957229587E30085A3D5 /* ShopCarSources.plist in Resources */,
+				488C900222AE98BE00BDD145 /* OrderDetailFooterView.xib in Resources */,
 				1890A90420A98A6500095705 /* 省惠优选用户协议.docx in Resources */,
 				18EAEB422080D61F00A71674 /* Info.plist in Resources */,
 				48AA79392295871A0085A3D5 /* cart_default_bg.png in Resources */,
@@ -2712,6 +2721,7 @@
 				18EAEB012080D5A800A71674 /* TZPhotoPickerController.m in Sources */,
 				481508A6229D7DB0002C0301 /* UIView+DWQEmptyView.m in Sources */,
 				18EAEB0B2080D5A800A71674 /* WYTagFlowLayout.m in Sources */,
+				488C900022AE98B100BDD145 /* OrderDetailFooterView.m in Sources */,
 				489FCBAE229EBBE1001E77E5 /* LLSegmentBar.m in Sources */,
 				FE8AB15821776D1F0011A3D0 /* ZWSHomeViewController.m in Sources */,
 				18EAEB042080D5A800A71674 /* TZLocationManager.m in Sources */,

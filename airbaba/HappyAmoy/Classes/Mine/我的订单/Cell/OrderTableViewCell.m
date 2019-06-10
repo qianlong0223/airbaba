@@ -52,7 +52,9 @@
 }
 
 - (IBAction)fScanLogistcsClicked:(id)sender {
-    
+    if (_OrderDetailBlock) {
+        self.OrderDetailBlock();
+    }
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

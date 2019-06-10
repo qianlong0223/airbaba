@@ -8,6 +8,7 @@
 
 #import "OrderDetailViewController.h"
 #import "OrderDetailTableViewCell.h"
+#import "OrderDetailFooterView.h"
 @interface OrderDetailViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *orderDetailTable;
 
@@ -18,16 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"订单详情";
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     [self.view addSubview:self.orderDetailTable];
     
 }
 #pragma mark - 数据源方法
 // 返回行数
 - (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    return 2;
 }
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 2;
+    return 1;
 }
 // 设置cell
 - (UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
@@ -35,9 +38,7 @@
     OrderDetailTableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:JGFirstOneCellId];
     if (cell == nil) {
         cell = [[[NSBundle mainBundle]loadNibNamed:JGFirstOneCellId owner:nil options:nil]lastObject];
-    }
-    
-    
+    }    
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;
 }
@@ -47,7 +48,7 @@
  *  设置行高
  */
 - (CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
-    return 219;
+    return 140;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     return 2;
@@ -62,7 +63,9 @@
 
 // 返回每组的组尾
 - (UIView *)tableView:(nonnull UITableView *)tableView viewForFooterInSection:(NSInteger)section{
-    return [UIView new];
+    OrderDetailFooterView * footerView = [[[NSBundle mainBundle]loadNibNamed:@"OrderDetailFooterView" owner:self options:nil]lastObject];
+    footerView.backgroundColor = [UIColor whiteColor];
+    return footerView;
 }
 
 // 选中某行cell时会调用
